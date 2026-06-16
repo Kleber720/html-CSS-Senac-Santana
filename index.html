@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+   
+ 
+    <title>Document</title>
+ 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:"Roboto", sans-serif;
+        text-decoration: none;
+    }
+ 
+ 
+    header{
+        background-color: #07112A;
+        width: 100%;
+ 
+    }
+ 
+    header nav ul{
+        display: flex;
+        list-style: none;
+        padding: 5px 10px 5px 10px ;
+ 
+    }
+    header nav ul li{
+        margin: 0 10px;
+        color:#FFCFA4;
+        font-size: 0.7em;
+        font-weight: 400;
+        font-style: normal;
+        cursor: pointer;
+    }
+ 
+    header nav ul li:hover{
+        color: #f8dcc4;
+    }
+ 
+    #banner{
+       width: 100%;
+    }
+ 
+    main{
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+       
+ 
+    }
+ 
+    .modal{
+        width: 30%;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        border-radius: 8px;
+ 
+    }
+    .img_modal{
+        width: 100%;
+        border-radius: 8px;
+    }
+ 
+    .modal h1{
+        font-size: 1em;
+        text-align: center;
+        margin: 10px 0px;
+        color: #FD9683;
+ 
+    }
+ 
+    .modal p{
+        text-align: justify;
+        padding: 5px;
+        color: rgb(71, 71, 71);
+    }
+ 
+ 
+    footer{
+        
+        background-color: #07112A;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+
+    .section_footer{
+        padding: 25px 0px;
+        color: #FD9683;
+    }
+    .conteudo_texto{
+        margin-bottom: 10px;   
+        display: flex;
+        align-items: center;
+
+    }
+
+    .conteudo_texto span{
+        margin-right: 10px;
+    }
+
+ 
+
+    #section_menu ul{
+        list-style: none ;
+    }
+
+    #section_menu ul li{
+        margin-bottom: 10px;
+    }
+
+    .section_footer ul{
+        list-style: none;
+        
+
+    }
+
+    .section_footer ul li:hover{
+        color: #f0cdc7;
+        cursor: pointer;
+
+    }
+
+   
+    
+    
+
+ 
+ 
+</style>
+ 
+</head>
+<body>
+    <header>
+ 
+        <nav>
+ 
+            <ul>
+                <li >Home</li>
+                <li>Serviços</li>
+                <li>Quem somos</li>
+                <li>Contato</li>
+            </ul>
+ 
+        </nav>
+ 
+        <img id="banner" src="assets/banner 1.jpg" alt="desenho de uma menina em uma tonalidade avermelhada">
+ 
+    </header>
+ 
+    <main>
+ 
+        <section  class="modal">
+            <img class="img_modal" src="assets/luff.jpg" alt="">
+            <h1> Titulo</h1>
+            <p> Lorem ipsum dolor sit  amet consectetur amet consectetur adipisicing elit. Placeat, perspiciatis nisi neque fuga rerum alias officiis animi similique provident facere voluptatem? Dolore inventore iusto odio eveniet doloremque quia accusamus pariatur.</p>
+        </section>
+ 
+        <section  class="modal">
+            <img class="img_modal" src="assets/luff.jpg" alt="">
+            <h1> Titulo</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, perspiciatis nisi neque fuga rerum alias officiis animi similique provident facere voluptatem? Dolore inventore iusto odio eveniet doloremque quia accusamus pariatur.</p>
+        </section>
+ 
+        <section  class="modal">
+            <img class="img_modal" src="assets/luff.jpg" alt="">
+            <h1> Titulo</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, perspiciatis nisi neque fuga rerum alias officiis animi similique provident facere voluptatem? Dolore inventore iusto odio eveniet doloremque quia accusamus pariatur.</p>
+        </section>
+ 
+       
+ 
+    </main>
+ 
+    <footer>
+        <section class="section_footer"id="section_endereco">
+
+            <div class="conteudo_texto"><span class="material-symbols-outlined">
+                explore_nearby
+                </span> 
+                
+                <div>Rua Silva Toledo nº25 Santana</div>
+            
+            </div>
+
+            <div class="conteudo_texto">
+                <span class="material-symbols-outlined">
+                location_city
+                </span>
+
+                  <div>São Paulo - SP</div>
+                
+                </div>
+
+            <div class="conteudo_texto"><span class="material-symbols-outlined">
+                map
+                </span>
+
+                 <div>08907-123</div>
+                
+                </div>
+
+            <div class="conteudo_texto">
+                <span class="material-symbols-outlined">
+                call
+                </span>
+                
+                <div>(11) 9 4545-4545</div>
+            
+            </div>
+
+        </section>
+        <section class="section_footer" id="section_menu">
+            <ul>
+                <li >Home</li>
+                <li>Serviços</li>
+                <li>Quem somos</li>
+                <li>Contato</li>
+ 
+            </ul>
+        </section>
+ 
+    </footer>
+ 
+   
+</body>
+</html>
