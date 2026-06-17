@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Estudos de medida</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+
+
+        .pai {
+            width: 100%;
+            margin: 0 auto;
+            background-color: black;
+            padding: 10px;
+            height: 100%;
+        }
+
+        .filho {
+            border: 1px solid rgb(150, 45, 89);
+            background-color: aqua;
+            display: block;
+            width: 200px;
+            height: 80px;
+            margin: 0 auto;
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 20px;
+
+
+        }
+
+        .filho h1 {
+            font-size: 1.5rem;
+        }
+
+        .menu {
+            background-color: rgb(7, 59, 80);
+        }
+
+        .option {
+            display: inline-block;
+            padding: 10px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .option :hover {
+            background-color: rgb(14, 88, 117);
+
+        }
+
+        .option a:active {
+            color: rgb(8, 8, 7);
+        }
+
+        .option a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pai">
+
+        <div class="filho">
+            <h1>Elemento 1</h1>
+        </div>
+
+        <div class="filho">
+            <h1>Elemento 2</h1>
+        </div>
+
+        <div class="filho">
+            <h1>Elemento 3</h1>
+        </div>
+
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li class="option">
+                <span class="material-symbols-outlined">
+                    home
+                </span>
+                pagina 1
+            </li>
+
+
+            <li class="option">
+
+                <a href="pag2.html" target="_self"><span class="material-symbols-outlined">
+                        home
+                    </span>pagina 2</a>
+            </li>
+
+            <li class="option">
+                <a href="pag3.html">
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                    pagina 3
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+</body>
+
+</html>

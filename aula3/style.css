@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+
+
+        .pai {
+            width: 100%;
+            margin: 0 auto;
+            background-color: black;
+            padding: 10px;
+            height: 100%;
+        }
+
+        .filho {
+            border: 1px solid rgb(150, 45, 89);
+            background-color: aqua;
+            display: block;
+            width: 200px;
+            height: 80px;
+            margin: 0 auto;
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 20px;
+
+
+        }
+
+        .filho h1 {
+            font-size: 1.5rem;
+        }
+
+        .menu {
+            background-color: rgb(7, 59, 80);
+        }
+
+        .option {
+            display: inline-block;
+            padding: 10px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .option :hover {
+            background-color: rgb(14, 88, 117);
+
+        }
+
+        .option a:active {
+            color: rgb(8, 8, 7);
+        }
+
+        .option a {
+            text-decoration: none;
+            color: white;
+        }
+   
