@@ -55,11 +55,10 @@ main section{
 }
 
 main section nav {
-    background-color: transparent;
+    background-color: rgba(24, 24, 24, 0.479);
     padding: 40px;
     text-align: center;
-    border: 1px solid black;
-    box-shadow: rgba(0, 0, 0, 0.35) 5px 10px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     font-family: Sriracha;
  
 }
@@ -67,7 +66,7 @@ main section nav {
 main section nav a{
     font-size: 30px;
     text-decoration: none;
-    color: rgb(54, 151, 54);
+    color: rgb(79, 238, 79);
     margin: 70px;
     padding-top: 10px;
     text-shadow: 1px 2px 0px black;
@@ -80,12 +79,13 @@ main section nav a:hover{
 }
 
 .table{
-    background-color: transparent;
+     background-color: rgba(24, 24, 24, 0.479);
     width: 40%;
     height: 80%;
     margin: auto;
+    margin-top: 10px;
     border-radius: 10px;
-    box-shadow: rgb(0, 0, 0) 10px 30px 60px -20px inset, rgba(0, 0, 0, 0.925) 10px 30px 60px -20px inset;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     
 }
 
@@ -106,13 +106,14 @@ main section nav a:hover{
 }
 
 .table article a h1{
-    color: rgb(54, 151, 54);
+    color: rgb(79, 238, 79);
     
     
 }
 
 
 .table article a:hover{
+    color: rgb(54, 151, 54);
     font-family: Sriracha;
     text-shadow: 1px 2px 0px black;
     cursor: pointer;
@@ -137,7 +138,7 @@ main section nav a:hover{
 .sinopse h1{
     font-family: Sriracha;
     text-align: center;
-    color: rgb(54, 151, 54);
+    color: rgb(79, 238, 79);
     text-shadow: 1px 2px 0px black;
 }
 
