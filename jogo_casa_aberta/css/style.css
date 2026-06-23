@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --color_background: #f2134f;
+  --color_button: #674d8c;
+  --color-button_hover: #4a3764;
+  --color_font: #ffffff;
+  --color_secundary: #f28a80;
+  --color_black: #081026;
+  --margens_space:30px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 300;
+  text-decoration: none;
+}
+button {
+  width: 280px;
+  border: none;
+  background-color: var(--color_button);
+  padding: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: var(--color-button_hover);
+}
+button a {
+  color: var(--color_font);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

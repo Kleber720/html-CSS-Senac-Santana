@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+#container_cadastro{
+    width: 70%;
+    background-color: aquamarine;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#dados_pessoais{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#dados_pessoais section{
+    width: 100%;
+    display: flex;
+    background-color: blueviolet;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#dados_pessoais section input{
+    height: 30px;
+    border: none;
+    margin: 5px 10px;
+}
+
+#dados_pessoais section#nome{
+    width: 300px;
+}
+
+@media screen and (max-width: 500px) {
+    #container_cadastro{
+        width: 100%;
+    }
+
+    #dados_pessoais section#nome{
+        width: 100%;
+    }
+    
+
+}
