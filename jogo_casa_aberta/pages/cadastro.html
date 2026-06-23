@@ -1,132 +1,110 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
     <title>Cadastro</title>
-  </head>
-  <body>
+</head>
+<body>
     <div id="container_cadastro">
-      <form>
-        <fieldset id="dados_pessoais">
-          <legend>Dados Pessoais</legend>
-
-          <section>
-            <input
-              type="text"
-              name="nome"
-              id="nome"
-              placeholder="Digite o seu nome"
-              alt="Campo para digitar o nome"
-            />
-            <input
-              type="date"
-              name="data_nascimento"
-              id="data_nascimento"
-              alt="Campo para selecionar a data de nascimento"
-            />
-
-            <input type="text" placeholder="CPF XXX.XXX.XXX-XX" id="cpf" />
-            
-          </section>
-
-          
-          <fieldset>
-            <legend>Escolha o Gênero</legend>
-            <div>
-              <input
-                type="radio"
-                id="masculino"
-                name="genero"
-                value="masculino"
-                checked
-              />
-              <label for="masculino">Masculino</label>
-            </div>
-            <div>
-              <input
-                type="radio"
-                id="feminino"
-                name="genero"
-                value="feminino"
-              />
-              <label for="feminino">Feminino</label>
-            </div>
-
-            <div>
-              <input type="radio" id="outros" name="genero" value="outros" />
-              <label for="outros">Outros</label>
-            </div>
-            <div>
-              <input
-                type="radio"
-                id="naoEscolher"
-                name="genero"
-                value="nao_escolher"
-              />
-              <label for="naoEscolher">Prefiro não definir</label>
-            </div>
-          </fieldset>
-        
-        <fieldset id="contato_pessoa">
-          <legend>Contato</legend>
-          <input type="email" name="email" id="email" placeholder="email" />
-          <input
-            type="tel"
-            name="telefone"
-            id="telefone"
-            placeholder="Ex: (XX) XXXXX-XXXX"
-          />
-        </fieldset>
-
-        <fieldset id="endereco">
-          <legend>Endereço</legend>
-          <input type="text" placeholder="Rua" id="Rua" name="Rua" />
-          <input type="number" name="numero" id="numero" placeholder="Nº" />
-          <input type="text" name="bairro" id="bairro" placeholder="Bairro" />
-          <input type="text" name="cidade" id="cidade" placeholder="Cidade" />
-          <input type="text" name="CEP" id="cep" placeholder="CEP XXXXX-XXX" />
-          <select name="uf" id="uf">
-
-            <option value="">Selecione o UF</option>
-            <option value="AC">Acre</option>
-            <option value="AL">Alagoas</option>
-            <option value="AP">Amapá</option>
-            <option value="AM">Amazonas</option>
-            <option value="BA">Bahia</option>
-            <option value="CE">Ceará</option>
-            <option value="DF">Distrito Federal</option>
-            <option value="ES">Espírito Santo</option>
-            <option value="GO">Goiás</option>
-            <option value="MA">Maranhão</option>
-            <option value="MT">Mato Grosso</option>
-            <option value="MS">Mato Grosso do Sul</option>
-            <option value="MG">Minas Gerais</option>
-            <option value="PA">Pará</option>
-            <option value="PB">Paraíba</option>
-            <option value="PR">Paraná</option>
-            <option value="PE">Pernambuco</option>
-            <option value="PI">Piauí</option>
-            <option value="RJ">Rio de Janeiro</option>
-            <option value="RN">Rio Grande do Norte</option>
-            <option value="RS">Rio Grande do Sul</option>
-            <option value="RO">Rondônia</option>
-            <option value="RR">Roraima</option>
-            <option value="SC">Santa Catarina</option>
-            <option value="SP">São Paulo</option>
-            <option value="SE">Sergipe</option>
-            <option value="TO">Tocantins</option>
-
-          </select>
-
-        </fieldset>
-
-        <button type="submit">Cadastrar</button>
-
-      </form>
-
+        <form>
+            <fieldset id="dados_pessoas">
+                <legend>Dados pessoais</legend>
+                <section>
+                    <input type="text" placeholder="Digite o seu nome" alt="Campo para digitar o nome" name="nome" id="nome">
+ 
+                    <input type="date" name="data_nascimento" id="data_nascimento" >
+                    <input type="text" placeholder="CPF xxx.xxx.xxx-xx" id="cpf">
+                </section>
+               
+                <fieldset id="genero">
+                    <legend>Escolha o gênero</legend>
+               
+                    <div>
+                        <input type="radio" id="masculino" name="genero" value="masculino">
+                        <label for="masculino">Masculino</label>
+                    </div>
+               
+                    <div>
+                        <input type="radio" id="feminino" name="genero" value="feminino">
+                        <label for="feminino">Feminino</label>
+                    </div>
+               
+                    <div>
+                        <input type="radio" id="outros" name="genero" value="outros" />
+                        <label for="outros">Outros</label>
+                    </div>
+               
+                    <div>
+                        <input type="radio" id="naoEscolher" name="genero" value="nao_escolher" />
+                        <label for="naoEscolher">Prefiro não definir</label>
+                    </div>
+                </fieldset>
+ 
+            </fieldset>
+ 
+ 
+ 
+ 
+            <fieldset id="contato_pessoa">
+                <legend> Contato</legend>
+                <input type="email" name="email" id="email" placeholder="email">
+                <input type="tel" name="telefone" id="telefone" placeholder="Ex: (XX) XXXX-XXXX">
+            </fieldset>
+ 
+            <fieldset id="endereco">
+                <legend>Endereço</legend>
+                <input type="text" placeholder="Rua" id="rua" name="rua">
+                <input type="number" name="numero" id="numero" placeholder="Nº">
+                <input type="text" id="bairro" placeholder="Bairro" name="bairro">
+                <input type="text" id="cidade" placeholder="Cidade" name="cidade">
+                <input type="text" id="cep" placeholder="Cep xxxxx-xxx " name="cep">
+                <select name="uf" id="uf">
+                    <option value="">Selecione o UF</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+ 
+ 
+            </fieldset>
+           
+ 
+            <button type="submit" id="botao">Cadastrar</button>
+ 
+ 
+        </form>
+ 
+ 
+ 
     </div>
-
-  </body>
+</body>
 </html>

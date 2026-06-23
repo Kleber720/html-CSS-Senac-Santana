@@ -1,44 +1,60 @@
-@charset "utf-8";
+@media screen and (max-width: 614px){
+    #container_cadastro {
+        width: 100%;
+    }
+    #dados_pessoas {
+        flex-direction: column;
+    }
+    #dados_pessoas section{
+        flex-direction: column;
+    }
+    #dados_pessoas section #nome{
+        width: 100%;
+    }
+    #dados_pessoas section input {
+        margin: 5px 0;
+        padding: 5px;
+    }
+    #dados_pessoas fieldset{
+        margin-top: var(--margens_space);
+        display: flex;
+        width: 100%;
+        padding: 10px;
+    }
 
-#container_cadastro{
-    width: 70%;
-    background-color: aquamarine;
-    margin: 0 auto;
-    margin-top: 30px;
+    
+#genero{
+    display: grid;
+    flex-direction: column;
 }
 
-#dados_pessoais{
+}
+ 
+#container_cadastro {
+    width: 70%;
+    background-color: aqua;
+    margin: 0 auto;
+    margin-top: var(--margens_space);
+}
+ 
+#dados_pessoas {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
-#dados_pessoais section{
+ 
+#dados_pessoas section {
     width: 100%;
-    display: flex;
     background-color: blueviolet;
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
-#dados_pessoais section input{
+ 
+#dados_pessoas section input {
     height: 30px;
-    border: none;
-    margin: 5px 10px;
 }
-
-#dados_pessoais section#nome{
-    width: 300px;
-}
-
-@media screen and (max-width: 500px) {
-    #container_cadastro{
-        width: 100%;
-    }
-
-    #dados_pessoais section#nome{
-        width: 100%;
-    }
-    
-
+ 
+button {
+    justify-items: center;
 }
