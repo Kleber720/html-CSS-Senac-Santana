@@ -37,11 +37,95 @@
             width: 300px;
             display: flex;
             text-align: center;
+            flex-direction: column;
             border: 1px solid black;
+            transition: transform 1s linear;
         }
+
+        #card3:hover{
+            transform: translate(100px,300px);
+        }
+
+        #card4{
+            height: 300px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border: 1px solid black;
+            transition: transform 1s ease-in-out;
+        }
+
+        #card4:hover{
+            transform: scale(1.3,1.3);
+        }
+        #card5{
+            height: 300px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border: 1px solid black;
+            transition: transform 1s linear;
+        }
+
+        #card5:hover{
+            transform: rotate(180deg);
+        }
+
+        #card6{
+            height: 300px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border: 1px solid black;
+            transition: transform 1s linear;
+        }
+
+        #card6:hover{
+            transform: skew(45deg,50deg);
+        }
+
+        body{
+            background-image: url(one-piece-trafalgar-law.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 2000px;
+        }
+
+        .pai{
+            background-color: aqua;
+            width: 80%;
+            height: 200px;
+            position: fixed;
+            overflow: hidden;
+        }
+
+#elemento1,#elemento2,#elemento3{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    transition: transform 1s ease;
+    
+}
+
+#elemento1:active{
+    
+    
+    transform: translate(50%,50%);
+}
+
     </style>
 </head>
 <body>
+
+    <div class="pai">
+        <div id="elemento1"></div>
+        <div id="elemento2"></div>
+        <div id="elemento3"></div>
+    </div>
    
     <div id="card1">
  
@@ -52,6 +136,22 @@
     </div>
 
     <div id="card3">
+        <img src="one-piece-trafalgar-law.avif" alt="">
+        <h1>Titulo</h1>
+    </div>
+
+    <div id="card4">
+        <img src="one-piece-trafalgar-law.avif" alt="">
+        <h1>Titulo</h1>
+
+    </div>
+
+    <div id="card5">
+        <img src="one-piece-trafalgar-law.avif" alt="">
+        <h1>Titulo</h1>
+    </div>
+
+    <div id="card6">
         <img src="one-piece-trafalgar-law.avif" alt="">
         <h1>Titulo</h1>
     </div>
