@@ -1,6 +1,11 @@
 @charset "utf-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap');
+
+
 :root{
+    
     --cor1: #0D1117;
     --cor2:#0D1117;
     --cor3:#334E80;
@@ -29,7 +34,8 @@ header{
     border-bottom: 1px solid white;
 }
 
-header h1{
+header h1 {
+    font-family: "Bitcount", sans-serif;
     color: white;
     padding: 40px;
     text-align: center;
@@ -53,6 +59,7 @@ main{
     flex-wrap: wrap;
 }
 
+
 #lateral aside img{
     height: 100%;
     width: 90%;
@@ -69,7 +76,7 @@ main{
     
 }
 
-#lateral article h1{
+#lateral article h1,h2{
     color: white;
     margin-top: 10px;
     font-size: 1.5em;
@@ -87,6 +94,12 @@ main{
     text-shadow: 0.2px 0.2px black;
     line-height: 2em;
     
+}
+
+.imgContato{
+    width: 60px;
+    border-radius: 50%;
+    margin: 10px;
 }
 
 #conteudo{
@@ -119,7 +132,5 @@ main{
 
 #picturelinguagens img{
     width: 10%;
-    
-
 }
 
