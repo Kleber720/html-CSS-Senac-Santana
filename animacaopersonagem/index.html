@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem somos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Quem somos?</h1>
+
+    <main>
+        <div class="personagem">
+            <model-viewer
+            class="boneco"
+            id="dai"
+            src="Dai.glb"
+            camera-controls
+            auto-rotate
+            >
+            </model-viewer>
+
+            <div class="caracteristicas">
+                <h2>Dai</h2>
+                <ul id="caract_dai">
+                    
+                </ul>
+            </div>
+           
+
+        </div>
+        <div class="personagem"></div>
+        <div class="personagem"></div>
+    </main>
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
