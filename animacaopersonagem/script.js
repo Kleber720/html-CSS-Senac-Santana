@@ -6,7 +6,7 @@ dai.addEventListener("mouseover",()=>{
     for(let i=0;i<texto,length; i++){
 
         setTimeout(()=>{
-            let valor=
+            let valor+= texto[i];
             caract.innerHTML="<li>Item 1</li>"
 
         },0.5)
