@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <style>
         *{
     margin: 0px;
@@ -22,7 +23,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-end;
 }
 img{
@@ -36,12 +37,50 @@ img{
 img:hover{
     height: 400px;
 }
+aside{
+    padding: 10px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.082);
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition:  color 0.3s linear;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a:hover{
+    
+    color: white;
+}
+
+
+
+
     </style>
+
 </head>
 <body>
     <main>
-        <a href=""></a>
+
+         <aside>
+        <a id="pointer_right" href="../pages/telaInicial.html"><span class="material-symbols-outlined">arrow_back_ios</span></a>
+        
+        <a id="pointer_right" href=""><span class="material-symbols-outlined">arrow_forward_ios</span></a>
+    </aside>
     </main>
+
+   
     
 </body>
 </html>
