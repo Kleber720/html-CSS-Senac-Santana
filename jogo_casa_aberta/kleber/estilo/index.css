@@ -20,8 +20,8 @@ main{
     align-items:flex-end;
 }
 div{
-    
-    width: 100%;
+    margin-left: 500px;
+    width: 1000px;
     height: 600px;
     display: flex;
     justify-content: space-between;
@@ -29,11 +29,10 @@ div{
 }
 
 .personagens{
+    padding: 10px;
     height: 350px;
     margin-top: 350px;
-    margin-left: 450px;
     transition:  height 0.5s ;
-    
 }
 
 .personagens:hover{
