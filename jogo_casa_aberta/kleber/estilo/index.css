@@ -36,6 +36,7 @@ div{
 }
 
 .personagens:hover{
+    
     height: 500px;
     cursor: pointer;
 }
