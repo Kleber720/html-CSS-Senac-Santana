@@ -22,18 +22,19 @@ main{
 }
 
 div{
-    
-    margin-bottom: 95px;
-    height: 45px;
+   
+    margin-bottom: 5%;
+    height: 40px;
     width: 22%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-end;
 }
 
 img{
-    padding-bottom: 3px;
-    padding-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
     height: 40px;
 }
 
