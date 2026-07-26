@@ -6,7 +6,7 @@ aside{
     justify-content: space-between;
 }
 
-a{
+#back{
     
     display: flex;
     height: 50px;
@@ -21,7 +21,7 @@ a{
 }
 
 
-a:hover{
+#back:hover{
     
     color: white;
 }
