@@ -11,27 +11,28 @@ body{
     background-size: cover;
 }
 
-main{
-    height: 80%;
+#container{
+    display: grid;
+    grid-template-columns:minmax(150px, 1fr) minmax(200px, 1fr) minmax(150px, 1fr);
+    grid-template-rows: minmax(380px, 1fr) minmax(200px, 330px) minmax(200px, 380px);
+    height: 100%;
     
-    
-    display: flex;
-    justify-content: space-between;
-    align-items:flex-end;
+ 
+   
 }
-div{
-    margin-left: 500px;
-    width: 1000px;
-    height: 600px;
+
+main{
     display: flex;
-    justify-content: space-between;
-    align-items:center;
+    flex-direction: row;
+    grid-column: 2/3;
+    grid-row: 2/-3;
+
 }
 
 .personagens{
     padding: 10px;
     height: 350px;
-    margin-top: 350px;
+    align-items: end;
     transition:  height 0.5s ;
 }
 
@@ -41,16 +42,3 @@ div{
     cursor: pointer;
 }
 
-footer{
-    padding-top: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-aside{
-    padding: 10px;
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-}
