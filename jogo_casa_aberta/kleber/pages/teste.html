@@ -55,7 +55,7 @@
         <h1 >Boas vindas!</h1>
         <p>Vamos personalizar sua saudação usando JavaScript</p>
         <div class="saudacao" id="mensagemSaudacao">Olá,visitante!</div>
-        <button>
+        <button onclick="mudarNome()">
             Personalizar saudação
         </button>
         
@@ -64,7 +64,11 @@
     
 </body>
 <script>
-        let nome="kleber"
-        document.getElementById("mensagemSaudacao").textContent = "Olá, Kléber"
+        
+        function mudarNome(){
+            let nome="ana"
+            document.getElementById("mensagemSaudacao").textContent = "Olá, "+nome+"!"
+        }
+        
 </script>
 </html>
