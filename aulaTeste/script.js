@@ -19,5 +19,5 @@ document.addEventListener("keypress",(btn)=>{
 //pegar eventos da rolagem do mouse
 
 window.document.addEventListener("wheel",(tela)=>{
-    console.log("posicao",tela.deltaY)
+    console.log("posicao",tela.deltaX)
 })
